@@ -1,0 +1,38 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Main container to hold everything */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Ensures the app takes full height of the screen */
+}
+
+/* Navigation bar */
+.NavigationAppBar {
+  background-color: #2196F3;
+  color: white;
+  text-align: center;
+}
+
+/* Main content area */
+.main-content {
+  display: flex;
+  background-color: #f4f4f4;
+}
+
+/* Sidebar styling */
+.SideBar {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+}
+

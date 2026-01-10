@@ -1,0 +1,12 @@
+/* Target the root button element */
+.custom-mui-button {
+  background-color: #00bcd4 !important; /* Use !important to override MUI's default styles */
+  color: black !important;
+  border-radius: 20px;
+  place-items: center;
+}
+
+/* Target the hover state */
+.custom-mui-button:hover {
+  background-color: #00acc1 !important;
+}
